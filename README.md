@@ -7,6 +7,8 @@ You can install the package directly from Github:
 ```R
 # install the package first if you have not installed this package yet
 install.packages("devtools")
+library(devtools)
+
 devtools::install_github("Erina013/MedianImputer")
 
 library(MedianImputer)
